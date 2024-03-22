@@ -5,7 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Download database</title>
 </head>
-<body>
-    <a href="database.csv" target="_blank" download="database.csv">Download</a>
+<body onload="downloadFile()">
+    <script>
+        function downloadFile() {
+            var link = document.createElement('a');
+            link.href = 'database.csv';
+            link.download = 'database.csv';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+    </script>
 </body>
 </html>
