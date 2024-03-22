@@ -1,0 +1,171 @@
+{
+  "$schema": "https://www.speedscope.app/file-format-schema.json",
+  "profiles": [
+    {
+      "type": "evented",
+      "name": "Diagramme de Gantt",
+      "unit": "days",
+      "startValue": 0,
+      "endValue": 10,
+      "events": [
+        {
+          "type": "O",
+          "at": 0,
+          "frame": 0
+        },
+        {
+          "type": "O",
+          "at": 0,
+          "frame": 1
+        },
+        {
+          "type": "O",
+          "at": 0,
+          "frame": 2
+        },
+        {
+          "type": "O",
+          "at": 0,
+          "frame": 3
+        },
+        {
+          "type": "O",
+          "at": 0,
+          "frame": 4
+        },
+        {
+          "type": "O",
+          "at": 0,
+          "frame": 5
+        },
+        {
+          "type": "C",
+          "at": 10,
+          "frame": 5
+        },
+        {
+          "type": "O",
+          "at": 3,
+          "frame": 7
+        },
+        {
+          "type": "C",
+          "at": 5,
+          "frame": 7
+        },
+        {
+          "type": "C",
+          "at": 10,
+          "frame": 4
+        },
+        {
+          "type": "O",
+          "at": 5,
+          "frame": 8
+        },
+        {
+          "type": "C",
+          "at": 8,
+          "frame": 8
+        },
+        {
+          "type": "C",
+          "at": 10,
+          "frame": 3
+        },
+        {
+          "type": "O",
+          "at": 3,
+          "frame": 7
+        },
+        {
+          "type": "C",
+          "at": 4,
+          "frame": 7
+        },
+        {
+          "type": "C",
+          "at": 10,
+          "frame": 2
+        },
+        {
+          "type": "O",
+          "at": 3,
+          "frame": 7
+        },
+        {
+          "type": "C",
+          "at": 4,
+          "frame": 7
+        },
+        {
+          "type": "O",
+          "at": 5,
+          "frame": 9
+        },
+        {
+          "type": "C",
+          "at": 8,
+          "frame": 9
+        },
+        {
+          "type": "C",
+          "at": 10,
+          "frame": 1
+        },
+        {
+          "type": "C",
+          "at": 10,
+          "frame": 0
+        },
+        {
+          "type": "O",
+          "at": 5,
+          "frame": 6
+        },
+        {
+          "type": "C",
+          "at": 8,
+          "frame": 6
+        }
+      ]
+    }
+  ],
+  "shared": {
+    "frames": [
+      {
+        "name": "CPU1"
+      },
+      {
+        "name": "CPU2"
+      },
+      {
+        "name": "CPU3"
+      },
+      {
+        "name": "CPU4"
+      },
+      {
+        "name": "CPU5"
+      },
+      {
+        "name": "CPU6"
+      },
+      {
+        "name": "A"
+      },
+      {
+        "name": "B"
+      },
+      {
+        "name": "C"
+      },
+      {
+        "name": "D"
+      }
+    ]
+  },
+  "activeProfileIndex": 0,
+  "exporter": "pyspeedscope",
+  "name": "profile for python script"
+}
